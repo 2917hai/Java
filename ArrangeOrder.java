@@ -12,12 +12,19 @@ public class ArrangeOrder {
             word1=word2;
             word2=temp;
         }
-        else if (word2.compareTo(word3)>0) {
+         if (word2.compareTo(word3)>0) {
             String temp1=word2;
             word2=word3;
             word3=word2;
             
         }
+        if (word2.compareTo(word3)>0) {
+            String temp1=word2;
+            word2=word3;
+            word3=word2;
+            
+        }
+        System.out.println(word1+""+word2+""+word3);
         
         
     }
