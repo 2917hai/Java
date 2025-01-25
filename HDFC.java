@@ -3,9 +3,9 @@ public class HDFC {
     public static void main(String[] args) {
         String choice;
         Scanner sc=new Scanner(System.in);
-        choice=sc.nextLine();
         System.out.println("plese click bellow option");
         System.out.println("Ask Eva");
+        choice=sc.nextLine();
        if(choice.equals("Ask Eva"))
         {
             System.out.println("plese click bellow option");
