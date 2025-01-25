@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20240307T053000Z
+DTEND:20240307T080000Z
+DTSTAMP:20240304T144353Z
+ORGANIZER;CN="Harsh Vaja":MAILTO:calendar-invite@lu.ma
+UID:evt-THU2UjiDVxbYXyE@events.lu.ma
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=yadavu
+ meshkumar815@gmail.com;X-NUM-GUESTS=0:mailto:yadavumeshkumar815@gmail.com
+SUMMARY:ConnectVerse Present → ✦ Web3Utsav Central India's Roadshow WEB 3.0
+  ⚡️🚀
+DESCRIPTION:Get up-to-date information at: https://lu.ma/r7u9n5bc?pk=g-ziQk
+ DkyWkRmrXkR\n\nAddress:\nUniversity Institute of Technology RGPV\n\nConnect
+ Verse proudly presents → Web3Utsav Central India 🇮🇳Roadshow ⚡️, an initia
+ tive to bring Web3 and open source culture to campuses in Central India. 🚀
+ \n\nWe're covering 20 colleges across 8 cities, focusing on the latest in W
+ eb3, crypto, and dApps, with presentations, panels, workshops by industry p
+ ioneers, swag, networking, and valuable learning opportunities for attendee
+ s. 🔥\n\n✦ Contact for any FAQs\nNikhil Sondhiya → 6263510416\nBhopal DAO ✨
+LOCATION:University Institute of Technology RGPV, 8966+3M7, Abbas Nagar, Ga
+ ndhi Nagar, Bhopal, Madhya Pradesh 462033, India
+GEO:23.310174;77.361657
+SEQUENCE:131726633
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
