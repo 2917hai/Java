@@ -2,28 +2,28 @@ import java.util.Scanner;
 
 public class Switch3 {
     public static void main(String[] args) {
-        int no;
-        System.out.println("1) for ask   2) for give  3) for tell  4) Exit");
+        char choice;
+        System.out.println("A) for ask   B) for give  C) for tell  D) Exit");
         System.out.println("plese select the correct option");
         Scanner sc=new Scanner(System.in);
-        no=sc.nextInt();
-        switch (no) {
-            case 1:
+        choice=sc.nextLine().charAt(0);
+        switch (choice) {
+            case 'A':
                 {
                     System.out.println("for ask");
                     break;
                 }
-            case 2:
+            case 'B':
             {
                 System.out.println("for give");
                 break;
             }
-            case 3:
+            case 'C':
             {
                 System.out.println("for tell");
                 break;
             }
-            case 4:
+            case 'D':
             {
                 System.out.println("Exit");
                 break;
