@@ -38,8 +38,7 @@ public class Switch5 {
                     {
                         System.out.println("you have entered invalid input ");
                         break;
-                    }
-                       
+                    } 
                 }
                     break;
                 }
