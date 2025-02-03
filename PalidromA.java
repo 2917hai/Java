@@ -1,7 +1,7 @@
 public class PalidromA {
     public static void main(String[]args)
     {
-        int no=12345;
+        int no=121;
         int temp=no;
         int rev=0;
         int rem;

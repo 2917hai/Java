@@ -1,7 +1,10 @@
+import java.util.*;
 public class ArmStrongNumber {
     public static void main(String[]args)
     {
-       int no=153;
+      Scanner sc=new Scanner(System.in);
+       int no;
+       no=sc.nextInt();
        int t1=no;
        int length=0;
        while(t1!=0)
@@ -10,20 +13,22 @@ public class ArmStrongNumber {
         length=length+1;
        }
        int t2=no;
-       int rem=0;
-      int  mul=1;
+       int rem;
+      int  mul;
        int sum=0;
        while(t2!=0)
        {
+         mul=1;
          rem=t2%10;
+         for(int i=1; i<=length; i++)
+         {
+            mul=mul*rem;
+         }
+         sum=sum+mul;
          t2=t2/10;
 
        }
-       for(int i=1; i<=length; i++)
-       {
-          mul=mul*rem;
-       }
-        sum=sum+mul;
+       
     
        if(sum==no)
        {
