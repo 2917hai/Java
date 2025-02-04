@@ -1,19 +1,22 @@
+import java.util.*;
 public class Lcm {
     public static void main(String[] args) {
-        int a=7;
-        int b=13;
-        int Hcf=0;
-        int c=(a<b? a:b);
-        for(int i=1; i<=c; i++)
+        Scanner sc=new Scanner(System.in);
+        int a;
+        int b;
+        int lcm;
+        System.out.println("Enter two number");
+        a=sc.nextInt();
+        b=sc.nextInt();
+        int c=(a>b? a:b);
+        for(int i=c; ; i=i+c)
         {
-            if(a%i==0 && b%i==0)
-            {
-                 Hcf=i;
-            }
+          if(i%a==0 && i%b==0)
+          {
+            lcm=i;
+            break;
+          }
         }
-        System.out.println(Hcf);
-        System.out.println("LCM is"+(a*b/Hcf));
-       
+        System.out.println(lcm);
     }
-    
 }
