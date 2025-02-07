@@ -7,19 +7,18 @@ public class NumberToString {
         no=sc.nextInt();
         int rem;
         int n=0;
+        int count=0;
         int no1=no;
         while (no1>0) {
             rem=no1%10;
             n=(n*10)+rem;
             no1=no1/10;
+            count++;
         }
-        
-        // int no2=no1;
-        
+        System.out.println(n);
         int rem1;
-        while (n>0) {
+        while (count!=0) {
             rem1=n%10;
-           // System.out.println(rem1);
             switch (rem1) {
                     case 1:
                     System.out.print("one");
@@ -56,6 +55,7 @@ public class NumberToString {
                    break;
             }
             n=n/10; 
+            count--;
         }
     }
 }
