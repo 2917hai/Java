@@ -16,10 +16,55 @@ public class Question1 {
                 if(jj<=ii)
                 {
                     System.out.print("*");
-                }
-                
+                }   
             }
             System.out.println();
         }
+        for(int ii=1; ii<=5; ii++)
+        {
+            for(int jj=1; jj<=5; jj++)
+            {
+                if(jj>=ii)
+                {
+                    System.out.print("*");
+                }   
+            }
+            System.out.println();
+        }
+        for(int ii=1; ii<=5; ii++)
+        {
+            for(int jj=1; jj<=5; jj++)
+            {
+                if(jj<=5-ii)
+                {
+                    System.out.print(" ");
+                }   
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+           
+        }
+        for(int ii=1; ii<=5; ii++)
+        {
+            for(int jj=1; jj<=5; jj++)
+            {
+                if(jj>=5-ii)
+                {
+                    System.out.print(" ");
+                }   
+                else
+                {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+           
+        }
+
+
+
     }
 }
