@@ -1,6 +1,8 @@
 /*
  * 
- * Array is Object in Java while Array is variable in C++
+ * Array is Object in Java while Array is variable in C++;
+ * 
+ * int arr[5]    it is wrong because Array ek object hai aur jab tak new keyword ka use nhi karenge to
  * 
  */
   import java.util.*;
@@ -17,14 +19,10 @@ public class Array1 {
         for(int i=0; i<arr1.length; i++)
         { 
             System.out.println(arr[i]);
-
         }
 
-
-
-
         //            For Each
-        for(int i:arr)   // Arrayn is a collection
+        for(int i:arr)   // Array is a collection
         {
             System.out.println(arr[i]);
         }
