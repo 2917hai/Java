@@ -23,8 +23,7 @@ public class Array2 {
         {
             System.out.println("no");
             return;
-        }
-        
+        } 
       int temp=arr[start];
       arr[start]=arr[end];
       arr[end]=temp;
@@ -32,13 +31,10 @@ public class Array2 {
       end--; 
       System.out.println("yes");
      }
-   
      for(int j:arr)
      {
         System.out.print(j+" ");
      }
 ////////////////////////  Palidrome Number   ////////////////////////////////////////////
-    
-     
     }
 }
