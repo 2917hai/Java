@@ -25,12 +25,10 @@ public class String2 {
             System.out.println("false");
           }
           
-          obj1.replace("Apple", "Orange");// data are store in heap because we use method 
-          System.out.println(obj1);//  Apple
-          obj1=obj1.replace("Apple", "Orange");// data are store in heap because we use method
-          System.out.println(obj1);// Orange
-
-      
+        obj1.replace("Apple", "Orange");// data are store in heap because we use method 
+        System.out.println(obj1);//  Apple
+        obj1=obj1.replace("Apple", "Orange");// data are store in heap because we use method
+        System.out.println(obj1);// Orange
         char[] ch=obj1.toCharArray();
         int length=obj1.length();
         int a=0;
@@ -45,7 +43,48 @@ public class String2 {
             a++;
             b--;
         }
-        System.out.println(ch);
+        String rev=new String(ch);
+        System.out.println(rev);
+
+
+        /// *********************************   Palidrome   **************************************************
+        String str="abcba";
+        char[] pali=str.toCharArray(); 
+        int length1=str.length();
+        int a1=0;
+        int b1=length1-1;
+        int mid1=length1/2;
+        boolean pli=true;
+        for(int i=0;i<mid1;i++)
+        {
+            if(pali[a1]!=pali[b1])
+            {
+                pli=false;
+                break;
+            }
+            a1++;
+            b1--;
+        }
+        if(pli)
+        {
+            System.out.println("Palidrome");
+        }
+        else
+        {
+            System.out.println("Not Palidrome");
+        }
+       
+
+       
+        String str1="abc";
+        char[] ch1=str1.toCharArray();
+        int length2=str1.length();
+        for(int i=0; i<length2; i++)
+        {
+         System.out.print((char)(ch1[i]-32));
+        }
+
+        
         
     }
 }
