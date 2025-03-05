@@ -74,8 +74,6 @@ public class String2 {
             System.out.println("Not Palidrome");
         }
        
-
-       
         String str1="abc";
         char[] ch1=str1.toCharArray();
         int length2=str1.length();
@@ -84,7 +82,7 @@ public class String2 {
          System.out.print((char)(ch1[i]-32));
         }
 
-        
+
         
     }
 }
