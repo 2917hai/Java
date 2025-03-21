@@ -14,7 +14,6 @@ static void dupli(int arr[],int s)
             {
                t=true;
                arr[j]=-1;
-
             }
             
         }

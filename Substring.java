@@ -23,8 +23,6 @@ public class Substring {
             break;
         }
 
-
-
     }
     if(j!=m){
         System.out.println("Substring not found");
