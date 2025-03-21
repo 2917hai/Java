@@ -1,8 +1,4 @@
 public class Function1 {
-
-
-
-
 static void dupli(int arr[],int s)
 {
     for(int i=0; i<s; i++)
@@ -23,8 +19,6 @@ static void dupli(int arr[],int s)
         }
         
     }
-
-   
 }
     public static void main(String[] args) {
         System.out.println("===========================    Second function Class  ==================================");
