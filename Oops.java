@@ -111,7 +111,7 @@ class One
 }
 public class Oops {
     public static void main(String[] args) {
-        int arr[]={10,20,30,40};
+    int arr[]={10,20,30,40};
     One obj=new One(arr);
     One obj1=new One(obj.arr);
     obj.display();
