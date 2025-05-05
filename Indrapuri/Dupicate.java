@@ -32,6 +32,8 @@ public class Dupicate {
            
             System.out.println(arr[i]);
         }
+
+        
       
         
     }

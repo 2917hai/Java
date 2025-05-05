@@ -2,7 +2,7 @@
  * 
  * Array is Object in Java while Array is variable in C++;
  * 
- * int arr[5]    it is wrong because Array ek object hai aur jab tak new keyword ka use nhi karenge to
+ * int arr[5]    it is wrong because Array ek object hai aur jab tak new keyword ka use nhi karenge to tb tak isse memory nhi milega
  * 
  */
   import java.util.*;
