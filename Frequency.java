@@ -23,12 +23,9 @@ public class Frequency {
                 {
                     arr[j]=-1;
                     freq++;
-                   
-
                 }
-              
             }
-            System.out.println(arr[i]+"frequncy :"+freq);
+            System.out.println(arr[i]+" frequncy is :"+freq);
         }
     }
 }
