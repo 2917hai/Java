@@ -1,4 +1,40 @@
 import java.util.*;
+class Employee
+{
+    //  jab object banate hai to uske member data ko initialize karne ke liye constructor ka use karte hai
+    // constructor he memory allocate krta hai 
+    // aur sab ko by default value de dete hai
+    // jab bhi object banate hai to constructor call hota hai  jo default value set karta hai
+    // constructor is a special type of function which is used to initialize the member data of the class
+    String Name;
+    String Email;
+    String EmployeeID;
+    String MobileNumber;
+    String Department;
+
+    void getdata()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the name of employee");
+        Name=sc.nextLine();
+        System.out.println("Enter the email of employee");
+        Email=sc.nextLine();
+        System.out.println("Enter the employee ID");
+        EmployeeID=sc.nextLine();
+        System.out.println("Enter the mobile number of employee");
+        MobileNumber=sc.nextLine();
+        System.out.println("Enter the department of employee");
+        Department=sc.nextLine();
+    }
+    void showdata()
+    {
+        System.out.println("Name of employee: " + Name);
+        System.out.println("Email of employee: " + Email);
+        System.out.println("Employee ID: " + EmployeeID);
+        System.out.println("Mobile Number of employee: " + MobileNumber);
+        System.out.println("Department of employee: " + Department);
+    }
+}
  class Students
  {
     String name;
@@ -98,8 +134,13 @@ public class Oops2
         Students st=new Students();
         st.getdata();
         st.getmarks();
-         st.showdata();
+        st.showdata();
         st.showresult();
+
+        Employee emp=new Employee();
+        emp.getdata();
+        emp.showdata();
+
 
 
         
