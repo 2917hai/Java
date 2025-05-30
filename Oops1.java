@@ -1,7 +1,27 @@
+import java.util.*;
 public class Oops1 {
-     void get()
+    int a; // member data
+    int b; // member data
+     void get()   // member function
      {
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter the value of a and b");
+         a = sc.nextInt();
+         b = sc.nextInt();
         
+     }
+     void dispaly()  // member function
+     {
+         System.out.println("a = " + a);
+         System.out.println("b = " + b);
+     }
+     void area()   // member function
+     {
+         System.out.println("Area = " + (a * b));
+     }
+     void perimeter()   // member function
+     {
+         System.out.println("Perimeter = " + (2 * (a + b)));
      }
     public static void main(String[] args) {
         System.out.println("Object and class");
@@ -15,5 +35,10 @@ public class Oops1 {
          * 
          * 
          */
+        Oops1 obj = new Oops1();
+        obj.get();
+        obj.dispaly();
+        obj.area();
+        obj.perimeter();
     }
 }
